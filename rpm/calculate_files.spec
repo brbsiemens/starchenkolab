@@ -25,5 +25,5 @@ install -m 755 %{_builddir}/starchenkolab-main/calculate_files.sh %{buildroot}/u
 /usr/bin/calculate_files
 
 %changelog
-* Sun Dec 28 2023 Starchenko Boris <starcenkoboris2@gmail.com> - 1.0-1
+* Sun Dec 23 2023 Starchenko Boris <starcenkoboris2@gmail.com> - 1.0-1
 - Initial build
