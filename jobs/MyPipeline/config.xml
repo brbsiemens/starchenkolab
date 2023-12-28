@@ -44,8 +44,8 @@
                             script {
                                 // Install RPM package inside the container
                                 sh 'docker exec deep-container rpm -ivh ~/rpmbuild/RPMS/noarch/calculate_files-1.0-1.el7.noarch.rpm'
-                                sh 'docker exec deep-container calculate_files --check_dir=vertebnylab-main'
-                                sh 'docker exec deep-container rm -r vertebnylab-main'
+                                sh 'docker exec deep-container calculate_files --check_dir=starchenkolab-main'
+                                sh 'docker exec deep-container rm -r starchenkolab-main'
                             }
                         }
                     }
